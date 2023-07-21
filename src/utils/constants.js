@@ -1,1 +1,1 @@
-export const API_URL = "https://dwialwinto.github.io/database_json_kasir/db.json"
+export const API_URL = "https://glamorous-cod-hem.cyclic.app/"
