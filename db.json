@@ -1,0 +1,1377 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "sushi-roll"
+    },
+    {
+      "id": 2,
+      "nama": "sashimi"
+    },
+    {
+      "id": 3,
+      "nama": "main-course"
+    },
+    {
+      "id": 4,
+      "nama": "dessert"
+    },
+    {
+      "id": 5,
+      "nama": "beverages"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Chrispy Roll",
+      "harga": 50000,
+      "is_ready": true,
+      "gambar": "chrispy.jpg",
+      "category": {
+        "id": 1,
+        "nama": "sushi-roll"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Fuji Roll",
+      "harga": 60000,
+      "is_ready": true,
+      "gambar": "fuji-roll.jpg",
+      "category": {
+        "id": 1,
+        "nama": "sushi-roll"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Ikura Sushi",
+      "harga": 55000,
+      "is_ready": true,
+      "gambar": "ikura.jpg",
+      "category": {
+        "id": 1,
+        "nama": "sushi-roll"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Khanikama Sushi",
+      "harga": 65000,
+      "is_ready": true,
+      "gambar": "khanikama.jpg",
+      "category": {
+        "id": 1,
+        "nama": "sushi-roll"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Khirishima",
+      "harga": 75000,
+      "is_ready": true,
+      "gambar": "khirisma.jpg",
+      "category": {
+        "id": 1,
+        "nama": "sushi-roll"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Spicy Roll",
+      "harga": 80000,
+      "is_ready": true,
+      "gambar": "spicy.jpg",
+      "category": {
+        "id": 1,
+        "nama": "sushi-roll"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Maguro",
+      "harga": 57000,
+      "is_ready": true,
+      "gambar": "s-maguro.jpg",
+      "category": {
+        "id": 2,
+        "nama": "sashimi"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Mekajiki",
+      "harga": 55000,
+      "is_ready": true,
+      "gambar": "s-mekajiki.jpg",
+      "category": {
+        "id": 2,
+        "nama": "sashimi"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Yofu",
+      "harga": 59000,
+      "is_ready": true,
+      "gambar": "s-yofu.jpg",
+      "category": {
+        "id": 2,
+        "nama": "sashimi"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-010",
+      "nama": "Toro",
+      "harga": 85000,
+      "is_ready": true,
+      "gambar": "toro.jpg",
+      "category": {
+        "id": 2,
+        "nama": "sashimi"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "K-011",
+      "nama": "Spesial Shasimi",
+      "harga": 200000,
+      "is_ready": true,
+      "gambar": "spesial.jpg",
+      "category": {
+        "id": 2,
+        "nama": "sashimi"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "K-012",
+      "nama": "Beef Katsu ",
+      "harga": 70000,
+      "is_ready": true,
+      "gambar": "beef.jpg",
+      "category": {
+        "id": 3,
+        "nama": "main-course"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "K-013",
+      "nama": "Ramen",
+      "harga": 45000,
+      "is_ready": true,
+      "gambar": "ramen.jpg",
+      "category": {
+        "id": 3,
+        "nama": "main-course"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "K-014",
+      "nama": "Tenju",
+      "harga": 33000,
+      "is_ready": true,
+      "gambar": "tenju.jpg",
+      "category": {
+        "id": 3,
+        "nama": "main-course"
+      }
+    },
+    {
+      "id": 15,
+      "kode": "K-015",
+      "nama": "Yakitoro Ju",
+      "harga": 80000,
+      "is_ready": true,
+      "gambar": "yaki.jpg",
+      "category": {
+        "id": 3,
+        "nama": "main-course"
+      }
+    },
+    {
+      "id": 16,
+      "kode": "K-016",
+      "nama": "Negitoro Don",
+      "harga": 53000,
+      "is_ready": true,
+      "gambar": "udon.jpg",
+      "category": {
+        "id": 3,
+        "nama": "main-course"
+      }
+    },
+    {
+      "id": 17,
+      "kode": "K-017",
+      "nama": "Salmon Ikura",
+      "harga": 33000,
+      "is_ready": true,
+      "gambar": "s-iukra.jpg",
+      "category": {
+        "id": 3,
+        "nama": "main-course"
+      }
+    },
+    {
+      "id": 18,
+      "kode": "K-018",
+      "nama": "Chocolate Monaka",
+      "harga": 33000,
+      "is_ready": true,
+      "gambar": "colate.jpg",
+      "category": {
+        "id": 4,
+        "nama": "dessert"
+      }
+    },
+    {
+      "id": 19,
+      "kode": "K-019",
+      "nama": "Matcha Dango",
+      "harga": 33000,
+      "is_ready": true,
+      "gambar": "dango.jpg",
+      "category": {
+        "id": 4,
+        "nama": "dessert"
+      }
+    },
+    {
+      "id": 20,
+      "kode": "K-020",
+      "nama": "Matcha Monaka",
+      "harga": 33000,
+      "is_ready": true,
+      "gambar": "monaka.jpg",
+      "category": {
+        "id": 4,
+        "nama": "dessert"
+      }
+    },
+    {
+      "id": 21,
+      "kode": "K-021",
+      "nama": "Green Addict",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "green.jpg",
+      "category": {
+        "id": 5,
+        "nama": "beverages"
+      }
+    },
+    {
+      "id": 22,
+      "kode": "K-022",
+      "nama": "Honeydew Juice",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "honey.jpg",
+      "category": {
+        "id": 5,
+        "nama": "beverages"
+      }
+    },
+    {
+      "id": 23,
+      "kode": "K-023",
+      "nama": "Orange Peach Tea",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "orange.jpg",
+      "category": {
+        "id": 5,
+        "nama": "beverages"
+      }
+    },
+    {
+      "id": 24,
+      "kode": "K-024",
+      "nama": "Sparkling Passion Fruit Tea",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "fruit.jpg",
+      "category": {
+        "id": 5,
+        "nama": "beverages"
+      }
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "total_bayar": 245000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 25000,
+          "product": {
+            "id": 22,
+            "kode": "K-022",
+            "nama": "Honeydew Juice",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "honey.jpg",
+            "category": {
+              "id": 5,
+              "nama": "beverages"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 57000,
+          "product": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "Maguro",
+            "harga": 57000,
+            "is_ready": true,
+            "gambar": "s-maguro.jpg",
+            "category": {
+              "id": 2,
+              "nama": "sashimi"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ikura Sushi",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "ikura.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 75000,
+          "product": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "Khirishima",
+            "harga": 75000,
+            "is_ready": true,
+            "gambar": "khirisma.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 33000,
+          "product": {
+            "id": 17,
+            "kode": "K-017",
+            "nama": "Salmon Ikura",
+            "harga": 33000,
+            "is_ready": true,
+            "gambar": "s-iukra.jpg",
+            "category": {
+              "id": 3,
+              "nama": "main-course"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 1
+    },
+    {
+      "total_bayar": 220000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 57000,
+          "product": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "Maguro",
+            "harga": 57000,
+            "is_ready": true,
+            "gambar": "s-maguro.jpg",
+            "category": {
+              "id": 2,
+              "nama": "sashimi"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ikura Sushi",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "ikura.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 75000,
+          "product": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "Khirishima",
+            "harga": 75000,
+            "is_ready": true,
+            "gambar": "khirisma.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 33000,
+          "product": {
+            "id": 17,
+            "kode": "K-017",
+            "nama": "Salmon Ikura",
+            "harga": 33000,
+            "is_ready": true,
+            "gambar": "s-iukra.jpg",
+            "category": {
+              "id": 3,
+              "nama": "main-course"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 2
+    },
+    {
+      "total_bayar": 163000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ikura Sushi",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "ikura.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 75000,
+          "product": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "Khirishima",
+            "harga": 75000,
+            "is_ready": true,
+            "gambar": "khirisma.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 33000,
+          "product": {
+            "id": 17,
+            "kode": "K-017",
+            "nama": "Salmon Ikura",
+            "harga": 33000,
+            "is_ready": true,
+            "gambar": "s-iukra.jpg",
+            "category": {
+              "id": 3,
+              "nama": "main-course"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 3
+    },
+    {
+      "total_bayar": 158000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 70000,
+          "product": {
+            "id": 12,
+            "kode": "K-012",
+            "nama": "Beef Katsu ",
+            "harga": 70000,
+            "is_ready": true,
+            "gambar": "beef.jpg",
+            "category": {
+              "id": 3,
+              "nama": "main-course"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ikura Sushi",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "ikura.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 33000,
+          "product": {
+            "id": 18,
+            "kode": "K-018",
+            "nama": "Chocolate Monaka",
+            "harga": 33000,
+            "is_ready": true,
+            "gambar": "colate.jpg",
+            "category": {
+              "id": 4,
+              "nama": "dessert"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 4
+    },
+    {
+      "total_bayar": 145000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Chrispy Roll",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "chrispy.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 70000,
+          "product": {
+            "id": 12,
+            "kode": "K-012",
+            "nama": "Beef Katsu ",
+            "harga": 70000,
+            "is_ready": true,
+            "gambar": "beef.jpg",
+            "category": {
+              "id": 3,
+              "nama": "main-course"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 25000,
+          "product": {
+            "id": 21,
+            "kode": "K-021",
+            "nama": "Green Addict",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "green.jpg",
+            "category": {
+              "id": 5,
+              "nama": "beverages"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 5
+    },
+    {
+      "total_bayar": 108000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Chrispy Roll",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "chrispy.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 25000,
+          "product": {
+            "id": 21,
+            "kode": "K-021",
+            "nama": "Green Addict",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "green.jpg",
+            "category": {
+              "id": 5,
+              "nama": "beverages"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 33000,
+          "product": {
+            "id": 19,
+            "kode": "K-019",
+            "nama": "Matcha Dango",
+            "harga": 33000,
+            "is_ready": true,
+            "gambar": "dango.jpg",
+            "category": {
+              "id": 4,
+              "nama": "dessert"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 6
+    },
+    {
+      "total_bayar": 215000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Chrispy Roll",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "chrispy.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 3,
+          "total_harga": 165000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ikura Sushi",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "ikura.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 7
+    },
+    {
+      "total_bayar": 240000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ikura Sushi",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "ikura.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 25000,
+          "product": {
+            "id": 23,
+            "kode": "K-023",
+            "nama": "Orange Peach Tea",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "orange.jpg",
+            "category": {
+              "id": 5,
+              "nama": "beverages"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 33000,
+          "product": {
+            "id": 19,
+            "kode": "K-019",
+            "nama": "Matcha Dango",
+            "harga": 33000,
+            "is_ready": true,
+            "gambar": "dango.jpg",
+            "category": {
+              "id": 4,
+              "nama": "dessert"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 70000,
+          "product": {
+            "id": 12,
+            "kode": "K-012",
+            "nama": "Beef Katsu ",
+            "harga": 70000,
+            "is_ready": true,
+            "gambar": "beef.jpg",
+            "category": {
+              "id": 3,
+              "nama": "main-course"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 57000,
+          "product": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "Maguro",
+            "harga": 57000,
+            "is_ready": true,
+            "gambar": "s-maguro.jpg",
+            "category": {
+              "id": 2,
+              "nama": "sashimi"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 8
+    },
+    {
+      "total_bayar": 110000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total_harga": 110000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ikura Sushi",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "ikura.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 9
+    },
+    {
+      "total_bayar": 55000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ikura Sushi",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "ikura.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 10
+    },
+    {
+      "total_bayar": 221000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ikura Sushi",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "ikura.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Mekajiki",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "s-mekajiki.jpg",
+            "category": {
+              "id": 2,
+              "nama": "sashimi"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 53000,
+          "product": {
+            "id": 16,
+            "kode": "K-016",
+            "nama": "Negitoro Don",
+            "harga": 53000,
+            "is_ready": true,
+            "gambar": "udon.jpg",
+            "category": {
+              "id": 3,
+              "nama": "main-course"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 33000,
+          "product": {
+            "id": 19,
+            "kode": "K-019",
+            "nama": "Matcha Dango",
+            "harga": 33000,
+            "is_ready": true,
+            "gambar": "dango.jpg",
+            "category": {
+              "id": 4,
+              "nama": "dessert"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 25000,
+          "product": {
+            "id": 23,
+            "kode": "K-023",
+            "nama": "Orange Peach Tea",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "orange.jpg",
+            "category": {
+              "id": 5,
+              "nama": "beverages"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 11
+    },
+    {
+      "total_bayar": 25000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 25000,
+          "product": {
+            "id": 23,
+            "kode": "K-023",
+            "nama": "Orange Peach Tea",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "orange.jpg",
+            "category": {
+              "id": 5,
+              "nama": "beverages"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 12
+    },
+    {
+      "total_bayar": 1225000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total_harga": 100000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Chrispy Roll",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "chrispy.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Mekajiki",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "s-mekajiki.jpg",
+            "category": {
+              "id": 2,
+              "nama": "sashimi"
+            }
+          },
+          "id": 5
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 85000,
+          "product": {
+            "id": 10,
+            "kode": "K-010",
+            "nama": "Toro",
+            "harga": 85000,
+            "is_ready": true,
+            "gambar": "toro.jpg",
+            "category": {
+              "id": 2,
+              "nama": "sashimi"
+            }
+          },
+          "id": 8
+        },
+        {
+          "jumlah": 3,
+          "total_harga": 165000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ikura Sushi",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "ikura.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 9
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 120000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Fuji Roll",
+            "harga": 60000,
+            "is_ready": true,
+            "gambar": "fuji-roll.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 10
+        },
+        {
+          "jumlah": 4,
+          "total_harga": 320000,
+          "product": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Spicy Roll",
+            "harga": 80000,
+            "is_ready": true,
+            "gambar": "spicy.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 11
+        },
+        {
+          "jumlah": 3,
+          "total_harga": 225000,
+          "product": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "Khirishima",
+            "harga": 75000,
+            "is_ready": true,
+            "gambar": "khirisma.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 12
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 130000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Khanikama Sushi",
+            "harga": 65000,
+            "is_ready": true,
+            "gambar": "khanikama.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 13
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 25000,
+          "product": {
+            "id": 24,
+            "kode": "K-024",
+            "nama": "Sparkling Passion Fruit Tea",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "fruit.jpg",
+            "category": {
+              "id": 5,
+              "nama": "beverages"
+            }
+          },
+          "id": 14
+        }
+      ],
+      "id": 13
+    },
+    {
+      "total_bayar": 33000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 33000,
+          "product": {
+            "id": 19,
+            "kode": "K-019",
+            "nama": "Matcha Dango",
+            "harga": 33000,
+            "is_ready": true,
+            "gambar": "dango.jpg",
+            "category": {
+              "id": 4,
+              "nama": "dessert"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 14
+    },
+    {
+      "total_bayar": 163000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Chrispy Roll",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "chrispy.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Mekajiki",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "s-mekajiki.jpg",
+            "category": {
+              "id": 2,
+              "nama": "sashimi"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 33000,
+          "product": {
+            "id": 19,
+            "kode": "K-019",
+            "nama": "Matcha Dango",
+            "harga": 33000,
+            "is_ready": true,
+            "gambar": "dango.jpg",
+            "category": {
+              "id": 4,
+              "nama": "dessert"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 25000,
+          "product": {
+            "id": 23,
+            "kode": "K-023",
+            "nama": "Orange Peach Tea",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "orange.jpg",
+            "category": {
+              "id": 5,
+              "nama": "beverages"
+            }
+          },
+          "id": 4
+        }
+      ],
+      "id": 15
+    },
+    {
+      "total_bayar": 25000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 25000,
+          "product": {
+            "id": 23,
+            "kode": "K-023",
+            "nama": "Orange Peach Tea",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "orange.jpg",
+            "category": {
+              "id": 5,
+              "nama": "beverages"
+            }
+          },
+          "id": 4
+        }
+      ],
+      "id": 16
+    },
+    {
+      "total_bayar": 130000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Chrispy Roll",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "chrispy.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 80000,
+          "product": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Spicy Roll",
+            "harga": 80000,
+            "is_ready": true,
+            "gambar": "spicy.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 17
+    },
+    {
+      "total_bayar": 165000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 50000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Chrispy Roll",
+            "harga": 50000,
+            "is_ready": true,
+            "gambar": "chrispy.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 60000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Fuji Roll",
+            "harga": 60000,
+            "is_ready": true,
+            "gambar": "fuji-roll.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Ikura Sushi",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "ikura.jpg",
+            "category": {
+              "id": 1,
+              "nama": "sushi-roll"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 18
+    }
+  ]
+}
